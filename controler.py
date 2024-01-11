@@ -97,15 +97,3 @@ class controler():
             fi_array.append(dic)
         return fi_array
     
-dic = {
-    "Nome": "raaaafa",
-    "codigo": "12345",
-    "email": "algo@algo",
-    "idade": "12",
-    "senha": "12345"
-}
-
-const = controler()
-const.iniciar_CSV()
-
-const.alterar(12345,dic)
